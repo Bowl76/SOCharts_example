@@ -95,8 +95,7 @@ public class MainView extends VerticalLayout {
 
         Button buttonAdd = new Button("Add Chart2",
         e -> {
-            // Notification.show("Hello!");
-            // legend.hide(barChart1);
+
             barChart2.plotOn(rc);
             // lineChart.plotOn(rc);
             try {
@@ -112,7 +111,7 @@ public class MainView extends VerticalLayout {
 
         Button buttonHide = new Button("Hide  Chart1",
         e -> {
-            // Notification.show("Hello!");
+
             legend.hide(barChart1);
 
             try {
