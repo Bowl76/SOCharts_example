@@ -35,7 +35,7 @@ import com.vaadin.flow.router.Route;
  * that shows a greeting message in a notification.
  */
 @Route
-@PageTitle("Stacked chart bug")
+@PageTitle("Stacked Bar Charts")
 public class MainView extends VerticalLayout {
 
     public MainView() {
